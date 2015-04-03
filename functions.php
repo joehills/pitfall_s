@@ -100,7 +100,7 @@ add_action( 'widgets_init', 'pnp_widgets_init' );
  * Enqueue scripts and styles.
  */
 function pnp_scripts() {
-	wp_enqueue_style( 'pnp-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'pnp-style', get_stylesheet_directory_uri() . '/dist/css/style.css' );
 
 	wp_enqueue_script( 'pnp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
