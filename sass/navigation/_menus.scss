@@ -3,6 +3,8 @@
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: #000;
+
 
 	ul {
 		list-style: none;
@@ -30,12 +32,15 @@
 
 			a {
 				width: 200px;
+				color: #fff;
 			}
 
 			:hover > a {
+				color: #fff;
 			}
 
 			a:hover {
+				color: #fff;
 			}
 		}
 
@@ -48,11 +53,15 @@
 		position: relative;
 
 		&:hover > a {
+			color: #fff;
 		}
 	}
 	a {
 		display: block;
 		text-decoration: none;
+		color: #fff;
+		font-family: "blambot-fx-pro",sans-serif;
+		font-weight: 700;
 	}
 
 	.current_page_item > a,
