@@ -276,6 +276,74 @@ textarea {
 	line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "blambot-fx-pro",sans-serif;
+}
+
+p.site-title,
+h1.site-title,
+h1.page-title {
+	font-family: "blambot-fx-pro",sans-serif;
+	font-weight: 700;
+}
+
+h2.widget-title,
+h2.entry-title,
+h3 {
+	font-family: "blambot-fx-pro",sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+	text-decoration: underline;
+	font-weight: 400;
+}
+
+p, 
+li, 
+p.site-description,
+dd {
+	font-family: "minion-pro",serif;
+}
+
+dd {
+	margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+	.dl-horizontal dt {
+		float: left;
+		width: 180px;
+		overflow: hidden;
+		clear: left;
+		text-align: right;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.dl-horizontal dd {
+		margin-left: 200px;
+	}
+}
+th {
+	font-family: "blambot-fx-pro",sans-serif;
+	font-weight: 400;
+	background: #000;
+	color: #fff;	
+}
+
+dt {
+	font-family: "minion-pro",serif;
+  -moz-font-feature-settings: "smcp";
+  -ms-font-feature-settings: "smcp";
+  -webkit-font-feature-settings: "smcp";
+  -o-font-feature-settings: "smcp";
+  font-feature-settings: "smcp";
+}
+
+td {
+	font-family: "minion-pro",serif;
+}
+
 h1,
 h2,
 h3,
