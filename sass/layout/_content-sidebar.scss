@@ -12,6 +12,7 @@
 
 #primary{
 	background: $color__paper;
+	@include make-xs-column(12);
 	@include make-md-column(8);
 }
 

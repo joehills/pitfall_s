@@ -1,13 +1,44 @@
 header#masthead {
 	background-color: #30c30c;
 	background-image: url("/wp-content/themes/pitfall_s/dist/images/pnpcover-1400.jpg") ;
+	background-size: cover;
+	.site-branding {
+		min-height: 200px;
 
-	h1.site-title {
-		a,
-		a:visited {
-			color: #fff;
-			font-family: "blambot-fx-pro";
-			font-weight: 400;
+		h1.site-title {
+			text-align: center;
+			&,
+			a,
+			a:visited {
+				color: #fff;
+				font-family: "blambot-fx-pro";
+				font-weight: 400;
+				text-decoration: none;
+			}
+			
+			a:hover,
+			a:focus {
+				text-decoration: none;
+			}
+		}
+
+		h2.site-description  {
+			display: none;
+		}
+	}
+}
+
+@media ( min-width: $screen-sm-min ) {
+	.site-branding {
+		min-height: 300px;
+		
+		h1.site-title {
+			font-size: 60px;
+		}
+
+		h2.site-description {
+			margin-top: -60px;
+			font-size: 20px;
 		}
 	}
 }
