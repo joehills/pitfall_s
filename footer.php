@@ -11,11 +11,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'pnp' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'pnp' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'pnp' ), 'Pitfalls', '<a href="http://twitter.com/joehills" rel="designer">Joe Hills</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="site-info">
+				&copy; Copyright 2015 Team Snow Day
+			</div><!-- .site-info -->
+		</div><!-- .container -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
