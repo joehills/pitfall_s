@@ -3,11 +3,16 @@
 	margin: 0 (-$size__site-sidebar) 0 0;
 //	width: $size__site-main;
 	@include make-row();
-	background: $paper;
+	background: $color__paper;
 }
 
 .site-main {
 	margin: 0 $size__site-sidebar 0 0;
+}
+
+#primary{
+	background: $color__paper;
+	@include make-md-column(8);
 }
 
 .site-content .widget-area {
