@@ -13,7 +13,15 @@
 #primary{
 	background: $color__paper;
 	@include make-xs-column(12);
-	@include make-md-column(8);
+	@include make-sm-column(8);
+	@include make-lg-column(9);
+}
+
+#secondary {
+	background: $color__paper;
+	@include make-xs-column(12);
+	@include make-sm-column(4);
+	@include make-lg-column(3);
 }
 
 .site-content .widget-area {
@@ -22,7 +30,5 @@
 	width: $size__site-sidebar;
 }
 
-.site-footer {
-	clear: both;
-	width: $size__site-main;
-}
+
+
