@@ -5,6 +5,7 @@ header#masthead {
 	.site-branding {
 		min-height: 200px;
 
+		h2.site-description,
 		h1.site-title {
 			text-align: center;
 			&,
@@ -29,16 +30,27 @@ header#masthead {
 }
 
 @media ( min-width: $screen-sm-min ) {
-	.site-branding {
-		min-height: 300px;
-		
-		h1.site-title {
-			font-size: 60px;
-		}
+	header#masthead {
+		.site-branding {
+			min-height: 300px;
+			
+			h1.site-title {
+				font-size: 60px;
+			}
 
-		h2.site-description {
-			margin-top: -60px;
-			font-size: 20px;
+			h2.site-description {
+				margin-top: -60px;
+				font-size: 20px;
+				display: block;
+			}
+		}
+	}
+}
+
+@media ( min-width: $screen-md-min ) {
+	header#masthead {
+		.site-branding {
+			min-height: 500px;
 		}
 	}
 }
