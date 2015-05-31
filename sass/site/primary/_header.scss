@@ -1,0 +1,13 @@
+header#masthead {
+	background-color: #30c30c;
+	background-image: url("/wp-content/themes/pitfall_s/dist/images/pnpcover-1400.jpg") ;
+
+	h1.site-title {
+		a,
+		a:visited {
+			color: #fff;
+			font-family: "blambot-fx-pro";
+			font-weight: 400;
+		}
+	}
+}
