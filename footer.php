@@ -13,7 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 			<div class="site-info">
-				&copy; Copyright 2015 Team Snow Day
+				&copy; Copyright 2015 Team Snow Day, rules and mechanics covered by <a href="/legal/">Open Gaming Licence</a>
 			</div><!-- .site-info -->
 		</div><!-- .container -->
 	</footer><!-- #colophon -->
